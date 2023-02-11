@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'poke';
+    src: url('./POKEMONCLASSIC.TTF');
+}
+
+
+:root {
+
+    background-image: url(../../../public/background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.app {
+    text-align: center;
+}
+
+div {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    padding: 10px;
+    align-content: center;
+    font-weight: 600;
+    font-family: 'poke';
+    
+
+}
+
+.pokemon-viewer {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 0 auto;
+    margin-bottom: 50px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: rgba(241, 233, 233, 0.5);
+}
+
+.pokemon-name {
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 0 auto;
+    height: 0 auto;
+    padding: 10px;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    font-family: 'poke';
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #151615;
+
+}
+
+.p {
+    font-family: 'poke';
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 0 auto;
+    height: 0 auto;
+    margin-top: 150px;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #151615;
+}
+
+.logo {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
